@@ -1,0 +1,16 @@
+# outlines the environment and associated dependencies 
+name: anti_cancer_drugs
+channels:
+- rdkit
+- conda-forge
+# I had to use conda here due to my computer's system limitations 
+dependencies:
+- python=3.8 
+- pandas
+- numpy
+- scikit-learn
+- tensorflow
+- keras
+- matplotlib
+- seaborn
+- rdkit
